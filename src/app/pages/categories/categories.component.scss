@@ -1,0 +1,45 @@
+
+/* Sections category
+// --------------------------------*/
+// ::ng-deep.category-box-shadow{
+//     box-shadow: 2px 3px 4px -1px rgb(0 0 0 / 14%) !important;
+// }
+.main{
+    box-shadow: 2px 3px 4px -1px rgb(0 0 0 / 14%) !important;
+}
+#category{
+    height: auto;
+}
+
+#category .content{
+    padding: 40px;
+    .box-category {
+        overflow: visible;
+        .background-shadows{
+            // width: 28%;
+            // height: 50%;
+            // background-color: red;
+            // box-shadow: -16px -20px 0px -1px rgb(255 0 197 / 35%);
+            // transform: translate(-5rem, 0px);
+            // position: absolute;
+            // // border-top: 6px dashed #faf3f8;
+            // border-left: 6px dashed #faf3f9;
+        }
+        img{
+            width: 100%;
+            transform: translate(5rem, 0px);
+        }
+    }
+} 
+.categoro-countent{
+    h1{
+        color: #FF9999;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 100;
+        color: #669999;
+    }
+}
+/*End  Sections category
+--------------------------------*/

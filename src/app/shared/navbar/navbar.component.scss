@@ -1,0 +1,21 @@
+
+/* Sections header nav
+--------------------------------*/
+#header nav {
+    height: 70px;
+}
+
+#header nav .navbar-collapse {
+    justify-content: center;
+}
+
+#header nav .nav-item .nav-link {
+    color: #669999 !important;
+    font-size: 1.5rem;
+    padding-right: 3.5rem;
+    padding-left: 0.5rem;
+    &:hover{
+        color: #FF9999 !important;
+        transition: all 0.2s ease-in-out;
+    }
+}
