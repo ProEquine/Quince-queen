@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "Home":"Home",
+        "About-us":"About us",
+        "Categories":"Categories",
+        "Contact-us":"Contact us",
+        "Language":"Language"
+    },
+    "Home": {
+        "about": "  The Boutique Focuses on Female Demends for all Events,Seasons as well as Daily Wear, Offers a Wide Range of Styles."
+    }
+}
