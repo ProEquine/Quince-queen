@@ -6,7 +6,33 @@
         "Contact-us":"Contact us",
         "Language":"Language"
     },
-    "Home": {
-        "about": "  The Boutique Focuses on Female Demends for all Events,Seasons as well as Daily Wear, Offers a Wide Range of Styles."
+    "home":{
+        "Home": {
+            "about": "  The Boutique Focuses on Female Demends for all Events,Seasons as well as Daily Wear, Offers a Wide Range of Styles."
+        },
+        "category":{
+            "header":"Check Our Collection"
+        },
+        "categoro-01":{
+            "WEDDING-AND-FESTIVE-DRESSES":"WEDDING AND FESTIVE DRESSES." ,
+            "categoro-countent":"Quince Queen dresses are distinguished by their lightweight materials and delicate designs."
+        },
+        "categoro-02":{
+            "TRADITIONAL-NATIONAL":"TRADITIONAL AND NATIONAL CEREMONIAL DRESSES.",
+            "categoro-countent":"These are distinguished by designs that allow ladies to wear the garment on several occasions and in two distinct styles."
+        },
+        "categoro-03":{
+            "WEDDING-FESTIVE":"WEDDING AND FESTIVE DRESSES.",
+            "categoro-countent":"Quince Queen dresses are distinguished by their lightweight materials and delicate designs."
+        },
+        "About":{
+            "header":"WHO WE ARE",
+            "text":"Designer Fatima Al Shamsi, an Emirati woman who has worked in fashion design for girls since 2010, launched a private store in the UAE in 2018 for designing and tailoring girls apparel. At Quince Queen, we assemble attractive elegant and stylish models with a modern feel and accents that match with the norms and traditions of our Arab gulf culture, fashioned with high quality fabrics and sewn skillfully and perfectly."
+        }
+    },
+    "footer":{
+        "LOCATION":"LOCATION",
+        "SOCIAL":"SOCIAL"
     }
+    
 }

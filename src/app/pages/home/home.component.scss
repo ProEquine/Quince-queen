@@ -57,15 +57,15 @@
 
 /* Sections category
 --------------------------------*/
-#category{
+// #category{
     // box-shadow: 5px 5px 9px -1px rgb(0 0 0 / 14%);
     // border-bottom: 2px solid rgb(0 0 0 / 14%);
     // padding-bottom: 60px;
     // margin-bottom: 1rem;
     // border-bottom-left-radius: 20px;
     // border-bottom-right-radius: 20px; 
-}
-
+// }
+ 
 #category .content{
     padding: 40px 0;
     .content-1{
@@ -192,3 +192,10 @@
 /* End Sections About
 --------------------------------*/
 
+
+/* rtl [dir="rtl"] 
+--------------------------------*/
+//[dir="rtl"] 
+[dir="rtl"]  #category .content .box-category-1 {
+    transform: translate(6rem, 0px) !important;
+}

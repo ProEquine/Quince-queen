@@ -2,13 +2,16 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import './styles.rtl.scss';
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins" , sans-serif;
 }
-
+//[dir="rtl"]  .is-sticky {
+//     background-color: red !important;
+//  } 
 .section-header {
     position: relative;
     padding: 10px 0 0 0;
