@@ -14,3 +14,14 @@
     opacity: 1;
     transition: all .2s ease-in-out;
  }
+ .btn-up-donw{
+   color: #FF9999;
+   background-color: #fff;  
+   box-shadow: 1px 1px 6px -1px #ff9999;
+   border-radius: 10px;  
+   cursor: pointer; 
+   &:hover{
+       color: #fff;
+       background-color: #FF9999 !important;  
+   }   
+}

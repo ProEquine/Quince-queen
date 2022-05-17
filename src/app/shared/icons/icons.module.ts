@@ -43,6 +43,7 @@ import {
   faShoppingBag,
   faTags,
   faAngleRight,
+  faChevronUp
 } from "@fortawesome/free-solid-svg-icons";
 
 @NgModule({
@@ -90,7 +91,7 @@ export class IconsModule {
       faShoppingBag,
       faTags,
       faAngleRight,
-
+      faChevronUp
     );
   }
 }
