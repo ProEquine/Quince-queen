@@ -33,6 +33,7 @@
 
 .dropdown {
 	position: relative;
+	z-index: 10;
 	&__btn {
 		position: relative;
 		display: inline-flex;
@@ -79,7 +80,7 @@
 
 		text-decoration: none;
 		color: darken(#669999, 30%);
-		background-color: rgba(#FF9999, 0.1);
+		background-color:#FFCCCC;
 		transition: background-color 0.2s;
 
 		&:first-child {
@@ -87,7 +88,7 @@
 		}
 
 		&:hover {
-			background-color: rgba(#FF9999, 0.3);
+			background-color:#FF9999;
 		}
 	}
 
@@ -104,3 +105,24 @@
 		}
 	}
 }
+
+.is-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 999;
+	// animation: .15s ease-in-out fadeInDown;
+	padding: 0;
+    background-color: white;
+    box-shadow:5px 2px 9px 0px rgb(0 0 0 / 10%);
+	// border-bottom: 1px solid gainsboro;
+	transition: all 0.4s ease-in-out;
+ } 
+ 
+ .is-sticky .nav-link {
+	color: #ffffff !important;
+	transition: all .3s ease-in-out;
+ }
+ 

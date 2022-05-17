@@ -1,37 +1,27 @@
 
 /* Sections category
 // --------------------------------*/
-// ::ng-deep.category-box-shadow{
-//     box-shadow: 2px 3px 4px -1px rgb(0 0 0 / 14%) !important;
-// }
 .main{
-    box-shadow: 2px 3px 4px -1px rgb(0 0 0 / 14%) !important;
+    box-shadow: inset 0 2px 4px -1px rgb(0 0 0 / 14%)
 }
 #category{
-    height: auto;
+    padding: 2rem;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-items: end;
 }
 
-#category .content{
-    padding: 40px;
-    .box-category {
-        overflow: visible;
-        .background-shadows{
-            // width: 28%;
-            // height: 50%;
-            // background-color: red;
-            // box-shadow: -16px -20px 0px -1px rgb(255 0 197 / 35%);
-            // transform: translate(-5rem, 0px);
-            // position: absolute;
-            // // border-top: 6px dashed #faf3f8;
-            // border-left: 6px dashed #faf3f9;
-        }
-        img{
-            width: 100%;
-            transform: translate(5rem, 0px);
-        }
-    }
-} 
+// @media (max-width: 991px) {
+//     #category{
+//         grid-template-columns: 1fr;
+//     }
+//  }
 .categoro-countent{
+    position: relative;
+    top: 3rem;
+    margin: 0 40px;
+
     h1{
         color: #FF9999;
     }
@@ -41,5 +31,72 @@
         color: #669999;
     }
 }
-/*End  Sections category
---------------------------------*/
+.category-slider{
+    width: 100%;
+}
+input[type=radio] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 50%;
+  height: 75vh;
+  left: 0;
+  right: 0;
+  margin: auto 100px;
+  transition: transform .4s ease;
+  cursor: pointer;
+  box-shadow: 0 7px 6px -1px rgb(0 0 0 / 14%);
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  max-height: 600px;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+//   margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+//   border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+//   transform: translatex(-40%) scale(.8);
+transform: translatex(85%) scale(0.6);
+//   opacity: .2;
+//   z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  transform: translatex(65%) scale(.8);
+//   opacity: .5;
+box-shadow: 0 7px 6px -1px rgb(0 0 0 / 14%);
+
+  z-index: 1;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+//   opacity: 1;
+  z-index: 2;
+  
+  img {
+    box-shadow: 0 7px 6px -1px rgb(0 0 0 / 14%);
+  }
+}

@@ -1,5 +1,5 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, HostListener, Inject, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -9,6 +9,9 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class NavbarComponent implements OnInit {
   isNavbarCollapsed = false;
+  /* UI */
+  hasScrolledBanner = false;
+
   constructor(private translateService: TranslateService,
     @Inject(DOCUMENT) private document: Document
     ) {
@@ -45,5 +48,16 @@ changeCssFile(lang: string) {
 
   ngOnInit(): void {
   }
+   /**
+    * Listens to window scroll events
+    *
+    * @param {*} event
+    * @memberof HeaderComponent
+    */
+   @HostListener('window:scroll', ['$event'])
+   onScroll(event:any) {
+      if (window.pageYOffset > 130) this.hasScrolledBanner = true;
+      else this.hasScrolledBanner = false;
+   }
 
 }

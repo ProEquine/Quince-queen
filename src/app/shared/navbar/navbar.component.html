@@ -1,6 +1,6 @@
 <!-- Start Header -->
 <section id="header">
-    <nav class="navbar navbar-expand-lg navbar-light category-box-shadow">
+    <nav class="navbar navbar-expand-lg navbar-light category-box-shadow" [class.is-sticky]="(hasScrolledBanner)">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,15 +20,15 @@
                             {{'navbar.Categories' | translate }}
                         </button>
                         <div class="dropdown__list">
-                            <a routerLink="/" class="dropdown__item">Categorie 1 </a>
-                            <a routerLink="/" class="dropdown__item">Categorie 2 </a>
-                            <a routerLink="/" class="dropdown__item">Categorie 3 </a>
+                            <a routerLink="categorie" class="dropdown__item">Categorie 1 </a>
+                            <a routerLink="categorie" class="dropdown__item">Categorie 2 </a>
+                            <a routerLink="categorie" class="dropdown__item">Categorie 3 </a>
                         </div>
                     </a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="categorie">{{'navbar.Contact-us' | translate }}</a>
+                    <a class="nav-link" routerLink="/">{{'navbar.Contact-us' | translate }}</a>
                 </li>
                
                 <li  class="nav-item">
