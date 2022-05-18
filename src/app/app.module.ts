@@ -28,6 +28,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     NgbModule,
     IconsModule,
     HttpClientModule,
+    
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

@@ -11,7 +11,6 @@ export class NavbarComponent implements OnInit {
   isNavbarCollapsed = false;
   /* UI */
   hasScrolledBanner = false;
-
   constructor(private translateService: TranslateService,
     @Inject(DOCUMENT) private document: Document
     ) {
@@ -59,5 +58,9 @@ changeCssFile(lang: string) {
       if (window.pageYOffset > 130) this.hasScrolledBanner = true;
       else this.hasScrolledBanner = false;
    }
+
+//    scrollToElement(element:any): void {
+//     element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+// }
 
 }
