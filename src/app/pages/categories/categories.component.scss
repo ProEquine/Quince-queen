@@ -2,7 +2,10 @@
 /* Sections category
 // --------------------------------*/
 .main{
-    box-shadow: inset 0 2px 4px -1px rgb(0 0 0 / 14%)
+    box-shadow: inset 0 2px 4px -1px rgb(0 0 0 / 14%);
+    background: url('../../../assets/img/home/pink\ leaves\ background\ 3.svg') center;
+    background-repeat: no-repeat;
+    background-position-y: 32px;
 } 
 #category{
     padding: 2rem;
@@ -10,13 +13,18 @@
     display: grid;
     grid-template-columns: 40% 60%;
     justify-items: end;
-}
-
-// @media (max-width: 991px) {
-//     #category{
-//         grid-template-columns: 1fr;
-//     }
-//  }
+    background: url('../../../assets/img/home/leaves\ 2.svg')bottom left;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    &:before {
+      content: "";
+      background: #ffcccc0d;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+}}
 .categoro-countent{
     position: relative;
     top: 3rem;
