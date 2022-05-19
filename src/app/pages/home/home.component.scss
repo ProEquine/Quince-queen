@@ -77,57 +77,6 @@
 }
 #category .content{
     padding: 40px 0;
-    // .content-1{
-    //     background: url('../../../assets/img/home/water\ color\ background.svg')top right;
-    //     background-repeat: no-repeat;
-    //     height: auto;
-    //     .container {
-    //         content: "";
-    //         // background: rgba(255, 255, 255, 0.50);
-    //         border-left: 2px solid #00000009;
-    //         border-right: 2px solid #00000009;
-    //     }
-    //     .background-img{
-    //         background: url('../../../assets/img/home/leaves\ 2.svg')bottom left;
-    //         background-size: 15%;
-    //         background-repeat: no-repeat;
-    //         background-position-x: 39%;
-    //         background-position-y: 100%;
-    //     }
-    // }
-    // .content-2{
-    //     background: url('../../../assets/img/home/water\ color\ background.svg')top left;
-    //     background-repeat: no-repeat;
-    //     background-size: 40%;
-    //     height: auto;
-    //     .container {
-    //         content: "";
-    //         // background: rgba(255, 255, 255, 0.50);
-    //         border-left: 2px solid #00000009;
-    //         border-right: 2px solid #00000009;
-    //     }
-    // }
-    // .content-3{
-    //     background: url('../../../assets/img/home/pink\ leaves\ background\ 4.svg')top left;
-    //     background-repeat: no-repeat;
-    //     height: auto;
-    //     background-size: 25%;
-    //     background-position-y: 97%;
-    //     background-position-x: 5%;
-    //     .container {
-    //         content: "";
-    //         // background: rgba(255, 255, 255, 0.50);
-    //         border-left:2px solid #00000009;
-    //         border-right:2px solid #00000009;
-    //         border-bottom:2px solid #00000009;
-    //         border-bottom-left-radius:5%;
-    //         border-bottom-right-radius:5%;
-    //     }
-    //     .mt-8{
-    //         padding-top: 8rem;
-    //         margin-bottom: 100px;
-    //     }
-    // }
     .box-category-1 {
         width: 120%;
         overflow: visible;
@@ -183,7 +132,6 @@
                 background-color: #FF9999 !important;  
             }   
         }
-
         span{
             margin: 5px;
             fa-icon.ng-fa-icon {
@@ -217,12 +165,3 @@
 }
 /* End Sections About
 --------------------------------*/
-
-
-/* rtl [dir="rtl"] 
---------------------------------*/
- 
-[dir="rtl"]  #category .content .box-category-1 {
-    transform: translate(6rem, 0px) !important;
-}
-
