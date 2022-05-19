@@ -127,4 +127,12 @@
 	color: #ffffff !important;
 	transition: all .3s ease-in-out;
  }
- 
+ /************************************************/
+ div#navbarTogglerDemo02 {
+    background: #ffffff;
+    z-index: 1024;
+    text-align: center;
+}
+button.navbar-toggler {
+    margin: 0 2rem;
+}

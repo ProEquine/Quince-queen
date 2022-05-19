@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class NavbarComponent implements OnInit {
   isNavbarCollapsed = false;
+  public navbarCollapsed = true;
   /* UI */
   hasScrolledBanner = false;
   constructor(private translateService: TranslateService,
