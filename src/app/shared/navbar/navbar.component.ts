@@ -59,8 +59,8 @@ changeCssFile(lang: string) {
       else this.hasScrolledBanner = false;
    }
 
-//    scrollToElement(element:any): void {
-//     element.scrollIntoView({behavior: "smooth", inline: "nearest"});
-// }
+   scrollToElement(element:any): void {
+    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+}
 
 }

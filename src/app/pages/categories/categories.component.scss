@@ -96,3 +96,25 @@ box-shadow: 0 7px 6px -1px rgb(0 0 0 / 14%);
   }
 }
 
+/****************************************************/
+
+@media (max-width: 992px) {
+  .categoro-countent{
+    top: 0 !important;
+    margin: unset !important;
+  }
+  #category-details{
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 100%;
+    justify-items: center;
+    height: 100vh !important;
+  }
+  .main{
+    background: none !important
+} 
+.card {
+  height: unset !important;  
+  width: 54%;
+
+}
+}

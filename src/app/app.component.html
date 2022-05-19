@@ -1,7 +1,21 @@
-<app-navbar></app-navbar>
- <router-outlet></router-outlet>
-<app-footer></app-footer>
 
+<div class="page-wrapper row">
+  <div class="col-lg-12 p-0">
+    <div class="top-wrapper">
+      <app-navbar></app-navbar>
+    </div>
+  </div>
+  <div class="col-lg-12 p-0">
+    <div class="countent-wrapper">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="col-lg-12 p-0">
+    <div class="footer-wrapper">
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
 
 <!-- <div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
     <button type="button" class="btn active" data-toggle="button" aria-pressed="true" (click)="scrollToTop()">

@@ -1,7 +1,7 @@
 
 
 .pt-8{
-    padding-top: 8rem;
+    padding: 8rem 2rem;
 }
 #main .main-container 
 {
@@ -61,8 +61,8 @@
     url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
     url('../../../assets/img/home/leaves.svg');
     background-repeat: no-repeat;
-    background-size: 60%, 20%, 70%, 30%, 40%;
-    background-position-x: 120%, 38%, -30%, 10%, 100%;
+    background-size: 60%, 12%, 70%, 30%, 40%;
+    background-position-x: 120%, 40%, -30%, 10%, 100%;
     background-position-y: 5%, 25%, 70%, 101%, 100%;
     height: auto;
 }
@@ -165,3 +165,4 @@
 }
 /* End Sections About
 --------------------------------*/
+
