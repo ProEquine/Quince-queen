@@ -1,3 +1,17 @@
 @import '/src/app/pages/home/home.component.ltr.scss';
 @import '/src/app/pages/categories/categories.component.ltr.scss';
 @import '/src/app/shared/navbar/navbar.component.ltr.scss';
+@import '/src/app/shared/footer/footer.component.ltr.scss';
+
+@font-face {
+    font-family: font-Arabtype;
+    src: url(./assets/font/ARABTYPE.TTF);
+  }
+[dir="rtl"] * {
+	font-family: "font-Arabtype" , sans-serif !important;
+}
+[dir="rtl"] {
+    .section-header h2 {
+        font-size: 84px !important;
+    }
+}

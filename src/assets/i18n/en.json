@@ -7,6 +7,9 @@
         "Language":"Language"
     },
     "home":{
+        "explore":{
+            "explore":"EXPLORE"
+        },
         "Home": {
             "about": "  The Boutique Focuses on Female Demends for all Events,Seasons as well as Daily Wear, Offers a Wide Range of Styles."
         },

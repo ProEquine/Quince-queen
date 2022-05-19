@@ -1,7 +1,7 @@
 
 
 .pt-8{
-    padding: 8rem 2rem;
+    padding: 2rem 2rem;
 }
 #main .main-container 
 {
@@ -34,18 +34,16 @@
     right: 0;
 }
 
-#home .logo {
+#home .logo img{
+    width: 60%;
+    margin: auto;
+    display: flex;;
     margin-top: 5rem;
-    width: 100%;
-    height: 40%;
-    background-image: url('../../../assets/img/logo/logo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
 }
 
 #home h3 {
+    width: 85%;
+    margin: auto;
     text-align: center;
     word-wrap: break-word;
     color: #669999 !important;
@@ -62,8 +60,8 @@
     url('../../../assets/img/home/leaves.svg');
     background-repeat: no-repeat;
     background-size: 60%, 12%, 70%, 30%, 40%;
-    background-position-x: 120%, 40%, -30%, 10%, 100%;
-    background-position-y: 5%, 25%, 70%, 101%, 100%;
+    background-position-x: 120%, 50%, -30%, 10%, 100%;
+    background-position-y: 10%, 25%, 70%, 101%, 100%;
     height: auto;
 }
 #category .container{
@@ -111,12 +109,15 @@
     }
 } 
 .categoro-countent{
+    left: 40px;
+    position: relative;
+    top: 75px;
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
         color: #FF9999;
     }
     p {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 100;
         color: #669999;
     }
@@ -150,8 +151,9 @@
 /* Sections About
 --------------------------------*/
 #about {
+    padding: 2rem;
     h1{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 700;
         text-align: center;
         margin-bottom: 10px;
@@ -165,4 +167,16 @@
 }
 /* End Sections About
 --------------------------------*/
-
+ 
+@media (max-width: 992px) {  
+    #home {
+       height: auto !important;
+    }
+    #home .logo img{
+        margin: 0 auto;
+    }
+    #home h3 {
+        
+        font-size: 0.8rem;
+    }
+}
