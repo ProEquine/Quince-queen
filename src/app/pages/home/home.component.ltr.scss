@@ -75,4 +75,14 @@
     }
 }
 
-
+@media (max-width: 576px) { 
+    [dir="rtl"]  .categoro-countent{
+        top: 63px;
+        h1{
+            font-size: 2rem !important;
+        }
+        p {
+            font-size: 20px !important;
+        }
+    }
+}
