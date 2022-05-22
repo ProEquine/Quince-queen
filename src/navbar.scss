@@ -1,0 +1,138 @@
+
+/* Sections header nav
+--------------------------------*/
+#header nav {
+    height: 70px;
+}
+
+#header nav .navbar-collapse {
+    justify-content: center;
+}
+#header nav .nav-item img {
+	width: 80%;
+}
+#header nav .nav-item .nav-link {
+    color: #669999 !important;
+    font-size: 1.5rem;
+    padding-right: 3.5rem;
+    padding-left: 0.5rem;
+    &:hover{
+        color: #FF9999 !important;
+        transition: all 0.2s ease-in-out;
+    }
+
+    select.form-control {
+        border: none;
+        color: #669999 !important;
+        font-size: 1.5rem;
+        line-height: 1;
+        &:hover{
+            color: #FF9999 !important;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}
+
+.dropdown {
+	position: relative;
+	z-index: 10;
+	&__btn {
+		position: relative;
+		display: inline-flex;
+		// padding: 1rem;
+		border: none;
+
+		font-size: inherit;
+		color: #669999;
+		font-family: inherit;
+
+		cursor: pointer;
+		background-color: transparent;
+		border-radius: 3px;
+		z-index: 2;
+	}
+
+	&__list {
+		position: absolute;
+		// right: 0;
+		width: max-content;
+
+		display: flex;
+
+		flex-direction: column;
+		padding-top: 10px;
+
+		border-radius: 3px;
+		overflow: hidden;
+
+		transform: translateY(-20%);
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.25s;
+		z-index: 1;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+
+		padding: 1rem 1.5rem;
+		font-size: 1rem;
+
+		text-decoration: none;
+		color: darken(#669999, 30%);
+		background-color:#FFCCCC;
+		transition: background-color 0.2s;
+
+		&:first-child {
+			border-radius: 3px 3px 0 0;
+		}
+
+		&:hover {
+			background-color:#FF9999;
+		}
+	}
+
+	// Show The dropdown content
+	&:hover {
+		.dropdown__btn {
+			color: darken(#669999, 10%);
+		}
+
+		.dropdown__list {
+			transform: translateY(0);
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}
+
+.is-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 999;
+	// animation: .15s ease-in-out fadeInDown;
+	padding: 0;
+    background-color: white;
+    box-shadow:5px 2px 9px 0px rgb(0 0 0 / 10%);
+	// border-bottom: 1px solid gainsboro;
+	transition: all 0.4s ease-in-out;
+ } 
+ 
+ .is-sticky .nav-link {
+	color: #ffffff !important;
+	transition: all .3s ease-in-out;
+ }
+ /************************************************/
+ div#navbarTogglerDemo02 {
+    background: #ffffff;
+    z-index: 1024;
+    text-align: center;
+}
+button.navbar-toggler {
+    margin: 0 2rem;
+}

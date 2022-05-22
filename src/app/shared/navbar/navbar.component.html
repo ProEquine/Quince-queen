@@ -10,10 +10,10 @@
                     <img src="../../../assets/img/home/logo horisental.svg" alt="">
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" routerLink="home" routerLinkActive="active">{{'navbar.Home' | translate }} </a>
+                    <a class="nav-link" (click)="onClick('home')" routerLink="/home" routerLinkActive="active">{{'navbar.Home' | translate }} </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="about" >{{'navbar.About-us' | translate }}</a>
+                    <a class="nav-link" (click)="onClick('about')" routerLink="/home" >{{'navbar.About-us' | translate }}</a>
                 </li>
                 <li  class="nav-item">
                     <div class="dropdown">
@@ -22,7 +22,7 @@
                             {{'navbar.Categories' | translate }}
                         </button>
                         <div class="dropdown__list">
-                            <a routerLink="categorie" class="dropdown__item">Categorie 1 </a>
+                            <a (click)="onClick('categorie')" routerLink="/categorie" class="dropdown__item">Categorie 1 </a>
                             <a routerLink="categorie" class="dropdown__item">Categorie 2 </a>
                             <a routerLink="categorie" class="dropdown__item">Categorie 3 </a>
                         </div>
@@ -30,7 +30,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="/">{{'navbar.Contact-us' | translate }}</a>
+                    <a class="nav-link" (click)="onClick('footer')" >{{'navbar.Contact-us' | translate }}</a>
                 </li>
                
                 <li  class="nav-item">
@@ -42,11 +42,9 @@
                         <div class="dropdown__list">
                             <a class="dropdown__item d-flex justify-content-between" (click)="changeLangage('ar')">
                                 <span>Arabic</span> 
-                                <!-- <img src="../../../assets/img/lang/01.png" width="20" alt="" srcset=""> -->
                             </a>
                             <a class="dropdown__item d-flex justify-content-between" (click)="changeLangage('en')">
                                 <span>English</span>
-                                <!-- <img src="../../../assets/img/lang/02.png" width="20" alt="" srcset=""> -->
                             </a>
                         </div>
                     </a>
@@ -56,4 +54,4 @@
         </div>
     </nav>
 </section>
-<!-- End Header --> 
+<!-- End Header -->  

@@ -1,4 +1,4 @@
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, ViewportScroller } from '@angular/common';
 import { Component, HostListener, Inject, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -13,7 +13,8 @@ export class NavbarComponent implements OnInit {
   /* UI */
   hasScrolledBanner = false;
   constructor(private translateService: TranslateService,
-    @Inject(DOCUMENT) private document: Document
+    @Inject(DOCUMENT) private document: Document,
+    private viewportScroller: ViewportScroller
     ) {
         translateService.addLangs(['en', 'ar']);
         translateService.setDefaultLang('en');
@@ -62,6 +63,9 @@ changeCssFile(lang: string) {
 
    scrollToElement(element:any): void {
     element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+}
+public onClick(elementId: string): void { 
+  this.viewportScroller.scrollToAnchor(elementId);
 }
 
 }
