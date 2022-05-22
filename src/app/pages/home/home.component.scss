@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
-    margin: 0 1rem;
+    margin: 0;
     .container{
         max-width: 970px !important;
     }
@@ -101,7 +101,7 @@
         border-radius: 10px;
         img{
             width: 100%;
-            transform: translate(3rem, 3rem);
+            transform: translate(4.9rem, 3rem);
             border-radius: 10px;
         } 
     
