@@ -3,6 +3,10 @@
 --------------------------------*/
 #header nav {
     height: 70px;
+	.header-mobile{
+		position: relative;
+		top: 10px;
+	}
 }
 #header nav .logo{
 	display: flex;
@@ -11,6 +15,7 @@
 	img{
 		display: none;
 		width: 70%;
+		margin-right: 20px;
 	}
 }
 #header nav .navbar-collapse {
