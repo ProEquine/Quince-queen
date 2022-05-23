@@ -83,6 +83,7 @@
     .content-1{
         display:grid;
         grid-template-columns: 40% 60%;
+        margin-top: -40px;
     }
     .category-web{
         display: block !important;
@@ -101,7 +102,7 @@
         border-radius: 10px;
         img{
             width: 100%;
-            transform: translate(4.9rem, 3rem);
+            transform: translate(3rem, 3rem);
             border-radius: 10px;
         } 
     
@@ -206,14 +207,17 @@
     }
     /*--------------------------home----------------------------------*/
     #home {
-       height: auto !important;
+       height: 30vh !important;
     }
     #home .logo img{
         margin: 0 auto;
+        display: none;
     }
     #home h3 {
-        
-        font-size: 0.8rem;
+        position: relative;
+        top: 100px;
+        font-size: 12px;
+        width: 80%;
     }
     /*--------------------------category---------------------------------*/
     #category 
@@ -227,9 +231,9 @@
         background-position-y: 10%, 60% !important;
         height: auto;
         .container {
-            padding-top: 15%;
-            padding-bottom: 4rem;
-            margin-bottom: 2rem;
+            // padding-top: 15%;
+            padding-bottom: 0;
+            margin-bottom: 0;
             box-shadow: none !important;
             border-bottom-left-radius:0 !important;
             border-bottom-right-radius:0!important;
@@ -240,17 +244,21 @@
             padding: 0;
             .box-category-1 ,.box-category-2 ,.box-category-3 {
                 background:none !important;
-                // img{
-                //     width: 65%;
-                // }
             }
             .category-web{
                 display: none !important;
             }
+            
             .category-mobile{
                 display: block !important;
+                transform: translate(4.5rem, 3rem) !important;
+            }
+            .box-category-2 {
+                transform: translate(-3rem, 3rem) !important;
             }
         }
+         
+
         .categoro-countent {
             left: 0;
             position: relative;
@@ -261,29 +269,32 @@
     /*--------------------------about----------------------------------*/
     #about {
         .container{
-            box-shadow: 0px 2px 20px 9px #41464b1c !important;
+            box-shadow: 0px 2px 20px 0px #b0b3b51c !important;
             border-radius: 10px;
             padding: 1rem;
         }
         h1{
-            font-size: unset !important;
+            font-size: 24px !important;
         }
         p{
-            font-size: unset !important;    
+            font-size: 10px !important;    
         }
     }
 }
 @media (max-width: 576px) { 
+    #home {
+        top: -50px;
+    }
  /*--------------------------category---------------------------------*/
 .categoro-countent {
         left: 0;
         position: relative;
         top: 100px;;
         h1{
-            font-size: 1.3rem;
+            font-size: 16px;
         }
         p {
-            font-size: .8rem;
+            font-size: 10px;
         }
         .explore {
             .btn{
@@ -292,3 +303,5 @@
         }
     }
  }
+
+

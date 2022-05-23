@@ -7,7 +7,8 @@
 
 [dir="rtl"]  #category .content {
     .box-category-1 {
-        transform: translate(6rem, 0px) !important;
+        // transform: translate(6rem, 0px) !important;
+        transform:  translate(5rem, 0px) scaleX(-1) !important;
     }
     .box-category-2 {
         transform: translate(-6rem, 0px) !important;
@@ -79,19 +80,36 @@
 
 
 @media (max-width: 992px) { 
-
+    [dir="rtl"]  .categoro-countent{
+        top: 80px !important;
+    }
 [dir="rtl"] #category .content .box-category-1 img {
        transform: scaleX(-1) translate(3.5rem) !important;
    }
+// [dir="rtl"] #category .content-2 .box-category-2 img {
+//     transform: scaleX(-1) translate(3.5rem) !important;
+// }
 }
+
+
 @media (max-width: 576px) { 
     [dir="rtl"]  .categoro-countent{
         top: 63px;
         h1{
-            font-size: 2rem !important;
+            font-size: 1.5rem !important;
         }
         p {
-            font-size: 20px !important;
+            font-size: 1rem !important;
         }
     }
+
+    [dir="rtl"] #home h3 {
+        font-size: 20px !important;
+    }
+}
+
+
+#category .content .category-mobile {
+    display: block !important;
+    transform: translate(4.5rem, 3rem) !important;
 }

@@ -9,7 +9,7 @@
     font-size: 14px;
     padding: 20px 0 20px 0;
     overflow: hidden;
-    box-shadow: 2px 1px 9px 0px #0000001c;
+    box-shadow: 2px 1px 9px 0px #b0b3b51c;
     .footer-border{
         border-top: 0.3rem dashed #CCCCCC;
         margin: 0 2rem;
@@ -127,15 +127,32 @@
     color: #ddd;
   }
   @media (max-width: 991px) {
-  #footer  .footer-links {
+  #footer 
+  {
+    h4{
+      font-size:20px;
+    }
+  .footer-links {
     padding-left: 0;
     text-align: center;
+    ul{
+      font-size:10px;
+    }
   }
-  #footer  .footer-contact {
+  .footer-info img{
+    width: 50%;
+    margin: 2rem auto 0;
+  }
+  .footer-links{
+    padding-top: 1.5rem;
+  }
+ .footer-contact {
     padding-left: 0;
+    padding-top: 1.5rem;
     text-align: center;
   
   }
+}
   }
 /* End Sections footer
 --------------------------------*/

@@ -1,14 +1,21 @@
-
 /* rtl [dir="rtl"] 
 --------------------------------*/
-[dir="rtl"]  #header nav .nav-item .nav-link {
-    font-size: 2.5rem !important;
+[dir="rtl"] #header nav {
+    .logo {
+        left: 20px;
+        right: unset !important;
+    }
+    .nav-item .nav-link {
+        font-size: 2.5rem !important;
+    }
 }
-[dir="rtl"]  .dropdown__item{
+
+[dir="rtl"] .dropdown__item {
     font-size: 1.5rem !important;
 }
 
-[dir="rtl"]  #header nav .nav-item img {
+[dir="rtl"] #header nav .nav-item img {
     top: 10px !important;
     position: relative !important;
 }
+
