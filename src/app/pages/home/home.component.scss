@@ -3,9 +3,10 @@
 }
 
 #main .main-container {
-    background: url('../../../assets/img/home/fabric.svg');
+    background: url('../../../assets/img/home/fabric.png');
     background-repeat: no-repeat;
     overflow: hidden;
+    background-size: contain;
     position: relative;
     margin: 0;
     .container {
