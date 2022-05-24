@@ -66,6 +66,7 @@ changeCssFile(lang: string) {
 }
 public onClick(elementId: string): void { 
   this.viewportScroller.scrollToAnchor(elementId);
+  this.navbarCollapsed = true;
 }
 
 }
