@@ -8,7 +8,6 @@
     overflow: hidden;
     position: relative;
     margin: 0;
-
     .container {
         max-width: 970px !important;
     }
@@ -67,15 +66,15 @@
 }
 
 #category .container {
-    // position: relative;
-    // top: -15rem;
+    position: relative;
+    top: 1rem;
     // padding: 5rem 0;
     padding-bottom: 4rem;
     margin-bottom: 2rem;
     box-shadow: 0px 9px 9px 0px #41464b1c;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    // background-color: #ffffffb3;
+    background-color: #ffffffb3;
 
 }
 
@@ -150,7 +149,7 @@
     left: 40px;
     position: relative;
     top: 75px;
-    padding: 1rem;
+    padding: 4rem;
 
     h1 {
         font-size: 3rem;
@@ -294,7 +293,7 @@
             left: 0;
             position: relative;
             top: 90px;
-
+            padding: 1rem !important;
             button.btn.btn-explore {
                 height: 2rem;
                 line-height: 0;

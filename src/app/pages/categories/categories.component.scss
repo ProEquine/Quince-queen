@@ -114,16 +114,25 @@ box-shadow: 0 7px 6px -1px rgb(0 0 0 / 14%);
     background: none !important
 } 
 .card {
-  width: 28% !important;
+  // width: 28% !important;
   height: unset !important; 
   left: unset !important;
   right: unset !important;
 }
+.cards {
+  margin: -60px auto;
+  width: 50% !important;
 }
-
+}
+@media (max-width: 768px) { 
+  .cards {
+    margin: -60px -80px;
+    // width: 50% !important;
+  }
+ }
 @media (max-width: 576px) {
   .cards {
-    margin: 0 -4px;
-    // width: 50% !important;
+    margin: 7% -80px;
+    width: 100% !important;
   }
 }

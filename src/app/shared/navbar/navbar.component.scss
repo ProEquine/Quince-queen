@@ -117,10 +117,13 @@
 			transform: translateY(0);
 			visibility: visible;
 			opacity: 1;
+			.dropdown__item{
+				cursor: pointer;
+			}
 		}
 	}
 }
-
+ 
 .is-sticky {
 	position: fixed;
 	top: 0;
