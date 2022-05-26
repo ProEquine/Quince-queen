@@ -10,7 +10,7 @@ export class CategoriesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // AOS.init();
+    // AOS.init(); 
   }
 
 }
