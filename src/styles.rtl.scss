@@ -6,10 +6,12 @@
 @font-face {
     font-family: font-Arabtype;
     src: url(./assets/font/ARABTYPE.TTF);
-  }
-[dir="rtl"] * {
-	font-family: "font-Arabtype" , sans-serif !important;
 }
+
+[dir="rtl"] * {
+    font-family: "font-Arabtype", sans-serif !important;
+}
+
 [dir="rtl"] {
     .section-header h2 {
         font-size: 84px !important;
@@ -19,30 +21,21 @@
 
 /* rtl [dir="rtl"]  nav
 --------------------------------*/
-[dir="rtl"]  #header nav .nav-item .nav-link {
+[dir="rtl"] #header nav .nav-item .nav-link {
     font-size: 2.5rem !important;
 }
-[dir="rtl"]  .dropdown__item{
+
+[dir="rtl"] .dropdown__item {
     font-size: 1.5rem !important;
 }
 
-[dir="rtl"]  #header nav .nav-item img {
+[dir="rtl"] #header nav .nav-item img {
     top: 10px !important;
     position: relative !important;
 }
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
     [dir="rtl"] .section-header h2 {
         font-size: 42px !important;
     }
-  }
-
-
-
-
-
-
-
-
-
-
+}

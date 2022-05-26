@@ -6,11 +6,12 @@
         right: unset !important;
         position: relative;
     }
+
     .nav-item .nav-link {
         font-size: 2.5rem !important;
     }
 }
- 
+
 [dir="rtl"] .dropdown__item {
     font-size: 1.5rem !important;
 }
@@ -19,6 +20,7 @@
     top: 10px !important;
     position: relative !important;
 }
-[dir="rtl"]  .dropdown :hover .dropdown__list  {
-    transform: translatey(0) translateX(-100%)!important;
+
+[dir="rtl"] .dropdown :hover .dropdown__list {
+    transform: translatey(0) translateX(-100%) !important;
 }

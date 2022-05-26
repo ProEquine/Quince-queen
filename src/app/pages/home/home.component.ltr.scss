@@ -1,102 +1,112 @@
-
 /* rtl [dir="rtl"] 
 --------------------------------*/
 [dir="rtl"] #home h3 {
     font-size: 40px !important;
 }
 
-[dir="rtl"]  #category .content {
+[dir="rtl"] #category .content {
     .box-category-1 {
         // transform: translate(5rem, 0px) !important;
-        transform:  translate(5rem, 0px) scaleX(-1) !important;
+        transform: translate(5rem, 0px) scaleX(-1) !important;
     }
+
     .box-category-2 {
         transform: translate(-6rem, 0px) !important;
     }
 }
 
-[dir="rtl"]  #main{
+[dir="rtl"] #main {
     background: url('../../../assets/img/home/green.svg'),
-    // url('../../../assets/img/home/leaves\ 2.svg'),
-    url('../../../assets/img/home/water\ color\ background.svg'),
-    url('../../../assets/img/home/water\ color\ background.svg'),
-    url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
-    url('../../../assets/img/home/leaves.svg') !important;
-    background-repeat: no-repeat!important;
+        // url('../../../assets/img/home/leaves\ 2.svg'),
+        url('../../../assets/img/home/water\ color\ background.svg'),
+        url('../../../assets/img/home/water\ color\ background.svg'),
+        url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
+        url('../../../assets/img/home/leaves.svg') !important;
+    background-repeat: no-repeat !important;
 
-    background-size:       10%,     50%, 50%, 30%,  40% !important;
-    background-position-x: 50%,    -5%, 100%, 90%, -0% !important;
-    background-position-y: 50%,     35%, 70%, 100%, 100% !important;
+    background-size: 10%, 50%, 50%, 30%, 40% !important;
+    background-position-x: 50%, -5%, 100%, 90%, -0% !important;
+    background-position-y: 50%, 35%, 70%, 100%, 100% !important;
 
 
- .content
-{
-    .box-category-1 {
-        background: url('../../../assets/img/home/photo\ background\ 2.svg') !important;
-        background-repeat: no-repeat !important;
-        img{
-            transform: translate(-3rem, 3rem) !important;
+    .content {
+        .box-category-1 {
+            background: url('../../../assets/img/home/photo\ background\ 2.svg') !important;
+            background-repeat: no-repeat !important;
+
+            img {
+                transform: translate(-3rem, 3rem) !important;
+            }
         }
-    }
 
-    .box-category-2 {
-        background: url('../../../assets/img/home/photo\ background\ 1.svg') !important;
-        background-repeat: no-repeat !important;
-        img{
-            transform: translate(3rem, 3rem) !important;
+        .box-category-2 {
+            background: url('../../../assets/img/home/photo\ background\ 1.svg') !important;
+            background-repeat: no-repeat !important;
+
+            img {
+                transform: translate(3rem, 3rem) !important;
+            }
         }
     }
 }
-}
-[dir="rtl"]  .categoro-countent{
+
+[dir="rtl"] .categoro-countent {
     right: 40px;
     position: relative;
     top: 75px !important;
-    h1{
+
+    h1 {
         font-size: 5rem !important;
     }
+
     p {
         font-size: 40px !important;
     }
+
     .explore {
-        .btn-explore{
+        .btn-explore {
             font-size: 1.5rem !important;
         }
     }
 }
 
-[dir="rtl"] #about 
-{
+[dir="rtl"] #about {
     h1 {
         font-size: 36px !important;
     }
+
     p {
         font-size: 18px !important;
     }
 }
 
-@media (max-width: 768px) { 
-    [dir="rtl"]  .categoro-countent{
+@media (max-width: 768px) {
+    [dir="rtl"] .categoro-countent {
         top: 80px !important;
         margin: 0 -15px !important;
     }
+
     [dir="rtl"] #category .content .box-category-1 img {
-       transform: scaleX(-1) translate(3.5rem) !important;
-   }
-    [dir="rtl"] #category  .content  .content-2  .category-mobile  {
-    transform: translate(3rem, 3rem) scalex(-1) !important;
-}
-[dir="rtl"] #category .content .box-category-2 {
-    transform: translate(0rem, 3rem) !important;
-}
+        transform: scaleX(-1) translate(3.5rem) !important;
+    }
+
+    [dir="rtl"] #category .content .content-2 .category-mobile {
+        transform: translate(3rem, 3rem) scalex(-1) !important;
+    }
+
+    [dir="rtl"] #category .content .box-category-2 {
+        transform: translate(0rem, 3rem) !important;
+    }
 }
 
-@media (max-width: 576px) { 
-    [dir="rtl"]  .categoro-countent{
+@media (max-width: 576px) {
+    [dir="rtl"] .categoro-countent {
         top: 63px;
-        h1{
+
+        h1 {
             font-size: 1.5rem !important;
         }
+
         p {
             font-size: 1.2rem !important;
         }
@@ -106,12 +116,14 @@
         font-size: 22px !important;
     }
 }
-@media (max-width: 320px) {  
-    [dir="rtl"]  .categoro-countent{
+
+@media (max-width: 320px) {
+    [dir="rtl"] .categoro-countent {
         top: 110px !important;
-        h1{
+
+        h1 {
             font-size: 28px !important;
         }
     }
-    
+
 }

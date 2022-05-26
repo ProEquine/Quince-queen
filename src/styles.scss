@@ -3,52 +3,60 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 @import './styles.rtl.scss';
+
 @font-face {
   font-family: font-spring-regular;
   src: url(./assets/font/FONTSPRING-DEMO-QUICHEFLARE-REGULAR.OTF);
 }
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "font-spring-regular" , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "font-spring-regular", sans-serif;
 }
+
 body {
   overflow-x: hidden;
 }
-[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+
+[data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
   transition-duration: .7s;
 }
 
-@media (max-width: 765px) { 
+@media (max-width: 765px) {
   .section-header h2 {
     font-size: 14px;
     margin: -15%;
   }
 }
+
 @media (max-width: 576px) {
   .section-header h2 {
     margin: -10%;
   }
 }
-@media (max-width: 375px) {
- 
-}
+
+@media (max-width: 375px) {}
+
 .navbar-light .navbar-toggler-icon {
   background-image: url('./assets/img/02.png') !important;
   height: 1rem;
   width: 1.2rem;
 }
+
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
-   border-color:unset !important; 
+  border-color: unset !important;
 }
 
-.navbar-toggler{
-  border:unset !important;
+.navbar-toggler {
+  border: unset !important;
 }
 
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0 #b0b3b51c !important;
 }
+
 // #b0b3b51c
