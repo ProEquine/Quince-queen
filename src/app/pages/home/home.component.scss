@@ -226,7 +226,27 @@
 /*---------------mobile response web design----------------------*/
 
 @media (max-width: 768px) {
-
+    #main
+    {
+        background:
+        url('../../../assets/img/home/water\ color\ background.svg'),
+        url('../../../assets/img/home/water\ color\ background.svg'),
+        url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
+        url('../../../assets/img/home/leaves.svg') !important;
+        background-repeat: no-repeat !important;
+        background-size: 45%, 50%, 30%, 40% !important;
+        background-position-x: 100%, -2%, 5%, 100% !important;
+        background-position-y: 30%, 65%, 102%, 102% !important;
+    
+    .container  {
+         padding-bottom:  unset !important;
+         margin-bottom: unset !important;
+         box-shadow:  unset !important;
+         border-bottom-left-radius:  unset !important;
+         border-bottom-right-radius: unset !important;
+        background-color: #ffffffb3;
+    }
+}
     /*--------------------------home----------------------------------*/
     #home {
         height: 72vh !important;
@@ -281,7 +301,7 @@
             }
             .content-2 {
                 .category-mobile {  
-                    transform: translate(0, 3rem) scalex(-1)!important;
+                    // transform: translate(0, 3rem) scalex(-1)!important;
                 }
             .categoro-countent{
                 padding-left: 4rem !important;

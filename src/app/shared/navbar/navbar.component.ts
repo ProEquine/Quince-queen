@@ -29,6 +29,7 @@ export class NavbarComponent implements OnInit {
   this.translateService.setDefaultLang(lang);
   this.translateService.use(lang);
   this.changeCssFile(lang);
+  this.navbarCollapsed = true;
   
 }
 changeCssFile(lang: string) {
