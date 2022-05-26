@@ -7,7 +7,7 @@
 
 [dir="rtl"]  #category .content {
     .box-category-1 {
-        // transform: translate(6rem, 0px) !important;
+        // transform: translate(5rem, 0px) !important;
         transform:  translate(5rem, 0px) scaleX(-1) !important;
     }
     .box-category-2 {
@@ -15,18 +15,18 @@
     }
 }
 
-[dir="rtl"]  #category{
+[dir="rtl"]  #main{
     background: url('../../../assets/img/home/green.svg'),
-    url('../../../assets/img/home/leaves\ 2.svg'),
+    // url('../../../assets/img/home/leaves\ 2.svg'),
     url('../../../assets/img/home/water\ color\ background.svg'),
     url('../../../assets/img/home/water\ color\ background.svg'),
     url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
     url('../../../assets/img/home/leaves.svg') !important;
     background-repeat: no-repeat!important;
- 
-    background-size:       17%,   0%,   50%, 50%, 30%,  40% !important;
-    background-position-x: 48%,  -41%,  -5%, 100%, 80%, -16% !important;
-    background-position-y: 26%,   25%,   0%, 45%, 100%, 100% !important;
+
+    background-size:       10%,     50%, 50%, 30%,  40% !important;
+    background-position-x: 50%,    -5%, 100%, 90%, -0% !important;
+    background-position-y: 50%,     35%, 70%, 100%, 100% !important;
 
 
  .content
@@ -51,7 +51,7 @@
 [dir="rtl"]  .categoro-countent{
     right: 40px;
     position: relative;
-    top: 75px;
+    top: 75px !important;
     h1{
         font-size: 5rem !important;
     }
@@ -68,16 +68,17 @@
 [dir="rtl"] #about 
 {
     h1 {
-        font-size: 84px !important;
+        font-size: 36px !important;
     }
     p {
-        font-size: 40px !important;
+        font-size: 18px !important;
     }
 }
 
 @media (max-width: 768px) { 
     [dir="rtl"]  .categoro-countent{
         top: 80px !important;
+        margin: 0 -15px !important;
     }
     [dir="rtl"] #category .content .box-category-1 img {
        transform: scaleX(-1) translate(3.5rem) !important;
@@ -88,11 +89,7 @@
 [dir="rtl"] #category .content .box-category-2 {
     transform: translate(0rem, 3rem) !important;
 }
-// [dir="rtl"] #category .content-2 .box-category-2 img {
-//     transform: scaleX(-1) translate(3.5rem) !important;
-// }
 }
-
 
 @media (max-width: 576px) { 
     [dir="rtl"]  .categoro-countent{
@@ -101,13 +98,20 @@
             font-size: 1.5rem !important;
         }
         p {
-            font-size: 1rem !important;
+            font-size: 1.2rem !important;
         }
     }
 
     [dir="rtl"] #home h3 {
-        font-size: 20px !important;
+        font-size: 22px !important;
     }
 }
-
-
+@media (max-width: 320px) {  
+    [dir="rtl"]  .categoro-countent{
+        top: 110px !important;
+        h1{
+            font-size: 28px !important;
+        }
+    }
+    
+}

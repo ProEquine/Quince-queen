@@ -19,4 +19,6 @@
     top: 10px !important;
     position: relative !important;
 }
-
+[dir="rtl"]  .dropdown :hover .dropdown__list  {
+    transform: translatey(0) translateX(-100%)!important;
+}

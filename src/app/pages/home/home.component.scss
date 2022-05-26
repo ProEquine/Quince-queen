@@ -249,7 +249,7 @@
 }
     /*--------------------------home----------------------------------*/
     #home {
-        height: 72vh !important;
+        height: 72vh;
         background: url('../../../assets/img/home-mobile/fabric_1.svg') !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
@@ -265,12 +265,13 @@
 
     #home h3 {
         position: relative;
-        top: 100px;
+        top: 60px;
         font-size: 20px;
         width: 90%;
     }
 
     /*--------------------------category---------------------------------*/
+    
     #category { 
         .section-header h2 {
             font-size: 32px;
@@ -300,9 +301,6 @@
                 transform: translate(-3rem, 3rem) !important;
             }
             .content-2 {
-                .category-mobile {  
-                    // transform: translate(0, 3rem) scalex(-1)!important;
-                }
             .categoro-countent{
                 padding-left: 4rem !important;
                 
@@ -313,17 +311,17 @@
         .categoro-countent {
             left: 0;
             position: relative;
-            top: 140px !important;
+            top: 140px;
             padding: 1rem !important;
             h1 {
-                font-size: 2.5rem !important;
+                font-size: 2.5rem;
             }
             p {
-                font-size: 16px !important;
+                font-size: 16px;
                 width: 76%;
             }
             .explore .btn {
-                font-size: 1rem !important;
+                font-size: 1rem;
             }
             button.btn.btn-explore {
                 height: 2rem;
@@ -343,18 +341,18 @@
         }
 
         h1 {
-            font-size: 24px !important;
+            font-size: 24px;
         }
 
         p {
-            font-size: 10px !important;
+            font-size: 10px;
         }
     }
 }
 
 @media (max-width: 576px) {
     #home {
-        height: 55vh !important;
+        height: 55vh;
         }
     
     /*--------------------------category---------------------------------*/
@@ -369,11 +367,11 @@
         ;
 
         h1 {
-            font-size: 16px !important;
+            font-size: 16px;
         }
 
         p {
-            font-size: 10px !important;
+            font-size: 10px;
         }
 
         .explore {
@@ -387,27 +385,34 @@
 }
 @media (max-width: 480px) {
     #home {
-        height: 50vh !important;
+        height: 50vh;
+    }
+    
+    .category .section-header{
+        margin-top: -90px ;
     }
 }
 @media (max-width: 375px) {
     #home {
-        height: 40vh !important;
+        height: 40vh;
     }
 }
 @media (max-width: 320px) {
     #home {
-        height: 35vh !important;
+        height: 35vh;
         h3 {
             top: 50px ;
             font-size: 12px;
         }
     }
     #category { 
-        .section-header h2 {
+        .section-header{
+          margin-top: 0;
+            h2 {
             font-size:16px;
             top: 0;
         }
+    }
         .content{
             margin-top: -70px;
             .category-mobile {
