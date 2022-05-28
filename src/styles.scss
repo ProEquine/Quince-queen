@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-
+    // "start": "node server/server.js",
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 @import './styles.rtl.scss';
 
 @font-face {
   font-family: font-spring-regular;
-  src: url(./assets/font/FONTSPRING-DEMO-QUICHEFLARE-REGULAR.OTF);
+  src: url('./assets/font/FONTSPRING-DEMO-QUICHEFLARE-REGULAR.OTF');
 }
 
 * {
