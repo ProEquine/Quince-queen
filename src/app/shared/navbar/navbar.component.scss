@@ -172,8 +172,11 @@ button.navbar-toggler {
 	margin: 0 2rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
 	#header nav {
+		.header-mobile {
+			width: 100%;
+		}
 		.nav-item img {
 			display: none;
 		}

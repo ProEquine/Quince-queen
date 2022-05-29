@@ -13,7 +13,10 @@
 }
 
 [dir="rtl"] .dropdown__item {
+    width: 100%;
+    span{
     font-size: 1.5rem !important;
+    }
 }
 
 [dir="rtl"] #header nav .nav-item img {
@@ -22,5 +25,11 @@
 }
 
 [dir="rtl"] .dropdown :hover .dropdown__list {
-    transform: translatey(0) translateX(-100%) !important;
+    transform: translatey(0) translateX(0) !important;
+}
+
+@media (max-width: 768px) {
+    [dir="rtl"] .dropdown :hover .dropdown__list {
+        transform: translatey(0) translateX(-100%) !important;
+    }
 }
