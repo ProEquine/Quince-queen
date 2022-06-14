@@ -33,3 +33,8 @@
         transform: translatey(0) translateX(-100%) !important;
     }
 }
+
+[dir="rtl"]  #header  nav  img  {
+    width: 12% !important;
+    margin: 1% 25% 1% 0!important;
+}
