@@ -1,8 +1,12 @@
 /* Sections header nav
 --------------------------------*/
 #header nav {
+	position: fixed;
+    background-color: #ffffff;
 	height: 80px;
+	width: 100%;
 	transition: all 0.4s ease-in-out;
+	z-index: 1025;
 	// .header-mobile {
 	// 	position: relative;
 	// 	top: 10px;
@@ -145,20 +149,22 @@
 }
 
 .is-sticky {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 15px 0;
-	z-index: 999;
-	padding: 0;
-	background-color: white;
+// 	background: rgba(6, 12, 34, 0.98);
+//     height: 70px;
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	padding: 15px 0;
+// 	z-index: 999;
+// 	padding: 0;
+// 	background-color: white;
 	box-shadow: 5px 2px 9px 0px #b0b3b51c;
-     animation: fadeIn1 .4s;
-	-webkit-animation: fadeIn1 .4s;
-	-moz-animation: fadeIn1 .4s;
-	-o-animation: fadeIn1 .4s;
-	-ms-animation: fadeIn1 .4s;
+//      animation: fadeIn1 .4s;
+// 	-webkit-animation: fadeIn1 .4s;
+// 	-moz-animation: fadeIn1 .4s;
+// 	-o-animation: fadeIn1 .4s;
+// 	-ms-animation: fadeIn1 .4s;
 }
 
 @keyframes fadeIn1 {
