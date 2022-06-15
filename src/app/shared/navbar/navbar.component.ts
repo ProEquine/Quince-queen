@@ -10,20 +10,20 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavbarComponent implements OnInit {
   isNavbarCollapsed = false;
   public navbarCollapsed = true;
+  langStart='ar';
   /* UI */
   hasScrolledBanner = false;
   constructor(private translateService: TranslateService,
     @Inject(DOCUMENT) private document: Document,
     private viewportScroller: ViewportScroller
   ) {
-    translateService.addLangs(['en', 'ar']);
-    translateService.setDefaultLang('en');
+    translateService.addLangs(['ar', 'en']);
+    translateService.setDefaultLang('ar');
+    // this.langStart = translateService.setDefaultLang('ar');
   }
   changeLangage(lang: string) {
     this.translateService.setDefaultLang(lang);
     this.translateService.use(lang);
-
-
     let htmlTag = this.document.getElementsByTagName("html")[0] as HTMLHtmlElement;
     htmlTag.dir = lang === "ar" ? "rtl" : "ltr";
     this.translateService.setDefaultLang(lang);
@@ -41,7 +41,7 @@ export class NavbarComponent implements OnInit {
     } else {
       let newLink = this.document.createElement("link");
       newLink.rel = "stylesheet";
-      newLink.type = "text/css";
+      newLink.type = "text/scss";
       newLink.id = "langCss";
       newLink.href = bundleName;
       headTag.appendChild(newLink);
@@ -49,6 +49,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.changeLangage(this.langStart);
   }
   /**
    * Listens to window scroll events
