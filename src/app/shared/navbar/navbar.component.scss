@@ -2,7 +2,7 @@
 --------------------------------*/
 #header nav {
 	height: 80px;
-
+	transition: all 0.4s ease-in-out;
 	// .header-mobile {
 	// 	position: relative;
 	// 	top: 10px;
@@ -154,12 +154,40 @@
 	padding: 0;
 	background-color: white;
 	box-shadow: 5px 2px 9px 0px #b0b3b51c;
-	transition: all 0.4s ease-in-out;
+     animation: fadeIn1 .4s;
+	-webkit-animation: fadeIn1 .4s;
+	-moz-animation: fadeIn1 .4s;
+	-o-animation: fadeIn1 .4s;
+	-ms-animation: fadeIn1 .4s;
 }
 
+@keyframes fadeIn1 {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn1 {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn1 {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn1 {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn1 {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
 .is-sticky .nav-link {
 	color: #ffffff !important;
-	transition: all .3s ease-in-out;
+	// transition: all .3s ease-in-out;
 }
 
 /************************************************/
