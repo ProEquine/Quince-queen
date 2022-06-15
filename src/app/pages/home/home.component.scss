@@ -400,6 +400,10 @@
 @media (max-width: 480px) {
     #home {
         height: 50vh;
+        h3{
+            top: 30px;
+            font-size: 16px;
+        }
     }
 
     .category .section-header {
@@ -410,6 +414,10 @@
 @media (max-width: 375px) {
     #home {
         height: 40vh;
+        h3{
+            top: 30px;
+            font-size: 16px;
+        }
     }
 }
 
