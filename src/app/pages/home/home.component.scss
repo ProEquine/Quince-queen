@@ -4,11 +4,11 @@
 
 #main {
     background:
-        url('../../../assets/img/home/water\ color\ background.svg'),
-        url('../../../assets/img/home/leaves\ 2.svg'),
-        url('../../../assets/img/home/water\ color\ background.svg'),
-        url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
-        url('../../../assets/img/home/leaves.svg');
+        url('../../../assets/img/home/water-color-background.jpg'),
+        url('../../../assets/img/home/leaves-2.jpg'),
+        url('../../../assets/img/home/water-color-background.jpg'),
+        url('../../../assets/img/home/pink-leaves-background-4.jpg'),
+        url('../../../assets/img/home/leaves.jpg');
     background-repeat: no-repeat;
     background-size: 45%, 12%, 50%, 30%, 40%;
     background-position-x: 100%, 50%, -2%, 5%, 100%;
@@ -109,7 +109,7 @@
         .box-category-1 {
             width: 120%;
             overflow: visible;
-            background: url('../../../assets/img/home/photo\ background\ 1.svg');
+            background: url('../../../assets/img/home/photo-background-1.svg');
             background-repeat: no-repeat;
             background-position-x: left;
             position: relative;
@@ -132,7 +132,7 @@
             .box-category-2 {
                 width: 120%;
                 overflow: visible;
-                background: url('../../../assets/img/home/photo\ background\ 2.svg');
+                background: url('../../../assets/img/home/photo-background-2.svg');
                 background-repeat: no-repeat;
                 background-position-x: right;
                 position: relative;
@@ -233,10 +233,10 @@
 @media (max-width: 768px) {
     #main {
         background:
-            url('../../../assets/img/home/water\ color\ background.svg'),
-            url('../../../assets/img/home/water\ color\ background.svg'),
-            url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
-            url('../../../assets/img/home/leaves.svg') !important;
+            url('../../../assets/img/home/water-color-background.jpg'),
+            url('../../../assets/img/home/water-color-background.jpg'),
+            url('../../../assets/img/home/pink-leaves-background-4.jpg'),
+            url('../../../assets/img/home/leaves.jpg') !important;
         background-repeat: no-repeat !important;
         background-size: 45%, 50%, 30%, 40% !important;
         background-position-x: 100%, -2%, 5%, 100% !important;
@@ -255,7 +255,7 @@
     /*--------------------------home----------------------------------*/
     #home {
         height: 72vh;
-        background: url('../../../assets/img/home-mobile/fabric_1.svg') !important;
+        background: url('../../../assets/img/home-mobile/03.jpg') !important;
         background-repeat: no-repeat !important;
         background-size: cover !important;
         background-position-x: 12% !important;

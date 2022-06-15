@@ -18,12 +18,11 @@
 
 
 [dir="rtl"] #main {
-    background: url('../../../assets/img/home/green.svg'),
-        // url('../../../assets/img/home/leaves\ 2.svg'),
-        url('../../../assets/img/home/water\ color\ background.svg'),
-        url('../../../assets/img/home/water\ color\ background.svg'),
-        url('../../../assets/img/home/pink\ leaves\ background\ 4.svg'),
-        url('../../../assets/img/home/leaves.svg') !important;
+    background: url('../../../assets/img/home/green.jpg'),
+        url('../../../assets/img/home/water-color-background.jpg'),
+        url('../../../assets/img/home/water-color-background.jpg'),
+        url('../../../assets/img/home/pink-leaves-background-4.jpg'),
+        url('../../../assets/img/home/leaves.jpg') !important;
     background-repeat: no-repeat !important;
 
     background-size: 10%, 50%, 50%, 30%, 40% !important;
@@ -33,7 +32,7 @@
 
     .content {
         .box-category-1 {
-            background: url('../../../assets/img/home/photo\ background\ 2.svg') !important;
+            background: url('../../../assets/img/home/photo-background-2.svg') !important;
             background-repeat: no-repeat !important;
 
             img {
@@ -42,7 +41,7 @@
         }
 
         .box-category-2 {
-            background: url('../../../assets/img/home/photo\ background\ 1.svg') !important;
+            background: url('../../../assets/img/home/photo-background-1.svg') !important;
             background-repeat: no-repeat !important;
 
             img {
