@@ -27,14 +27,17 @@
 [dir="rtl"] .dropdown :hover .dropdown__list {
     transform: translatey(0) translateX(0) !important;
 }
+[dir="rtl"]  #header  nav  img  {
+    width: 12%;
+    margin: 1% 25% 1% 0!important;
+}
 
 @media (max-width: 768px) {
     [dir="rtl"] .dropdown :hover .dropdown__list {
         transform: translatey(0) translateX(-100%) !important;
     }
+    [dir="rtl"]  #header  nav  img  {
+        width: 35%;
+    }
 }
 
-[dir="rtl"]  #header  nav  img  {
-    width: 12% !important;
-    margin: 1% 25% 1% 0!important;
-}

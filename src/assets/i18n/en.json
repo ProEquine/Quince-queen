@@ -39,7 +39,11 @@
     },
     "footer":{
         "LOCATION":"LOCATION",
-        "SOCIAL":"SOCIAL"
+        "SOCIAL":"SOCIAL",
+        "Street":"Ammar Al Rawda Street 3 Ajman",
+        "Working-hours":"Working hours from 10 AM to 2 PM & From 4 PM to 10 PM",
+        "Working-days":"All days of the week except Friday",
+        "phone":"Phone +971 56 389 3883"
     }
     
 }
