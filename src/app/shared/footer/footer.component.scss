@@ -9,7 +9,6 @@
   box-shadow: 2px 1px 9px 0px #b0b3b51c;
 
   .footer-border {
-    // border-top: 0.3rem dashed #CCCCCC;
     margin: 0 2rem;
   }
 }
@@ -65,7 +64,6 @@
 
 #footer h4 {
   font-size: 45px;
-  // font-weight: bold;
   color: #FF9999;
   text-transform: uppercase;
   position: relative;
@@ -73,7 +71,7 @@
 }
 
 #footer .footer-links {
-  padding-left: 10rem;
+  text-align: center;
   padding-top: 2.5rem;
 }
 
@@ -108,7 +106,7 @@
 }
 
 #footer .footer-contact {
-  padding-left: 8rem;
+  text-align: center;
   padding-top: 2.5rem;
 }
 

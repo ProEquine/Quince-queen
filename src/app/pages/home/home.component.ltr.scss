@@ -6,14 +6,16 @@
 
 [dir="rtl"] #category .content {
     .box-category-1 {
-        // transform: translate(5rem, 0px) !important;
-        transform: translate(5rem, 0px) scaleX(-1) !important;
+        transform: translate(5rem, 0px) !important;
+        // transform: translate(5rem, 0px) scaleX(-1) !important;
     }
 
     .box-category-2 {
         transform: translate(-6rem, 0px) !important;
     }
 }
+
+
 
 [dir="rtl"] #main {
     background: url('../../../assets/img/home/green.svg'),
@@ -25,8 +27,8 @@
     background-repeat: no-repeat !important;
 
     background-size: 10%, 50%, 50%, 30%, 40% !important;
-    background-position-x: 56%, -5%, 100%, 90%, -0% !important;
-    background-position-y: 45%, 35%, 70%, 100%, 100% !important;
+    background-position-x: 50%, -5%, 100%, 90%, -0% !important;
+    background-position-y: 50%, 35%, 70%, 100%, 100% !important;
 
 
     .content {
@@ -85,7 +87,9 @@
         top: 80px !important;
         margin: 0 -15px !important;
     }
-
+    [dir="rtl"] #category .content .box-category-1 {
+        transform: translate(5rem, 0px) scaleX(-1) !important;
+     }
     [dir="rtl"] #category .content .box-category-1 img {
         transform: scaleX(-1) translate(3.5rem) !important;
     }
