@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, HostListener, Inject } from '@angular/core';
+import { AppInsightsService } from './services/app-insights.service';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import { Component, HostListener, Inject } from '@angular/core';
 export class AppComponent {
   windowScrolled?: boolean;
 
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  constructor(@Inject(DOCUMENT) private document: Document , appInsightsService: AppInsightsService) {
+    appInsightsService.logPageView('MainPage');
+  }
 
 /*                              back-to-top start                             */
 /* -------------------------------------------------------------------------- */

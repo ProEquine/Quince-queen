@@ -13,6 +13,7 @@ import { CategoriesComponent } from './pages/categories/categories.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { AppInsightsService } from './services/app-insights.service';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     })
     
   ],
-  providers: [],
+  providers: [AppInsightsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
