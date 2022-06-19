@@ -11,7 +11,7 @@
         url('../../../assets/img/home/leaves.jpg');
     background-repeat: no-repeat;
     background-size: 45%, 12%, 50%, 30%, 40%;
-    background-position-x: 100%, 50%, -2%, 5%, 100%;
+    background-position-x: 100%, 50%, -2%, 10%, 100%;
     background-position-y: 30%, 48%, 65%, 102%, 102%;
     height: auto;
     overflow: hidden;
@@ -124,7 +124,6 @@
             }
 
         }
-
         .content-2 {
             display: grid;
             grid-template-columns: 60% 40%;
@@ -148,12 +147,63 @@
 
             }
         }
-
         .content-3 {
             display: grid;
             grid-template-columns: 40% 60%;
             ;
             padding: 4rem 0;
+        }
+        .content-4 {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            margin: -50px 0;
+
+            .box-category-2 {
+                width: 120%;
+                overflow: visible;
+                background: url('../../../assets/img/home/photo-background-2.svg');
+                background-repeat: no-repeat;
+                background-position-x: right;
+                position: relative;
+                transform: translate(6rem, 0px);
+                border-radius: 10px;
+
+                img {
+                    width: 100%;
+                    transform: translate(-3rem, 3rem);
+                    border-radius: 10px;
+                }
+
+            }
+        }
+        .content-5 {
+            display: grid;
+            grid-template-columns: 40% 60%;
+            ;
+            padding: 4rem 0;
+        }
+        .content-6 {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            // margin: -50px 0;
+            margin: -4rem 0 10rem 0;
+            .box-category-2 {
+                width: 120%;
+                overflow: visible;
+                background: url('../../../assets/img/home/photo-background-2.svg');
+                background-repeat: no-repeat;
+                background-position-x: right;
+                position: relative;
+                transform: translate(6rem, 0px);
+                border-radius: 10px;
+
+                img {
+                    width: 100%;
+                    transform: translate(-3rem, 3rem);
+                    border-radius: 10px;
+                }
+
+            }
         }
     }
 

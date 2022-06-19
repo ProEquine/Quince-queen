@@ -11,31 +11,43 @@
             "explore":"EXPLORE"
         },
         "Home": {
-            "about": "  The Boutique Focuses on Female Demends for all Events,Seasons as well as Daily Wear, Offers a Wide Range of Styles."
+            "about": "The boutique includes a wide variety of designs Meet the needs of girls for all occasions and seasons"
         },
         "category":{
             "header":"Check Our Collection"
         },
         "categoro-01":{
-            "WEDDING-AND-FESTIVE-DRESSES":"WEDDING AND FESTIVE DRESSES." ,
-            "categoro-countent":"Quince Queen dresses are distinguished by their lightweight materials and delicate designs."
+            "TRADITIONAL-NATIONAL":"Traditional and national ceremonial clothes and dresses",
+            "categoro-countent":"We are unique in designs that allow girls to wear the piece on more than one occasion and in two different forms"
         },
         "categoro-02":{
-            "TRADITIONAL-NATIONAL":"TRADITIONAL AND NATIONAL CEREMONIAL DRESSES.",
-            "categoro-countent":"These are distinguished by designs that allow ladies to wear the garment on several occasions and in two distinct styles."
+            "FESTIVE-AND-WEDDING-DRESSES":"Festive and wedding dresses" ,
+            "categoro-countent":"Queens Queen dresses are characterized by luxury, lightness and softness of designs"
         },
         "categoro-03":{
-            "WEDDING-FESTIVE":"CLOTHES FOR TRAVEL AND EXCURSIONS.",
-            "categoro-countent":"We provide a wide range of cuts that are suitable for travel and for daily activities."
+            "DAILY-CLOTHES-AND-GALABIYAS":"Daily clothes and galabiyas",
+            "categoro-countent":"Embroidered clothes with a modern character, distinguished by their soft designs and cheerful colors"
+        },
+        "categoro-04":{
+            "JALABIYAS-FOR-RELIGIOUS-OCCASION":"Jalabiyas for religious occasions",
+            "categoro-countent":"It contains religious symbols and images for the occasion and a sophisticated modern touch"
+        },
+        "categoro-05":{
+            "CLOTHES-FOR-TRAVEL-AND-EXCURSIONS":"CLOTHES FOR TRAVEL AND EXCURSIONS",
+            "categoro-countent":"It is characterized by modest designs with wide cuts, convenient for travel and transportation"
+        },
+        "categoro-06":{
+            "ABAYAS":"Abayas",
+            "categoro-countent":"Girls in the UAE start wearing the abaya from around the age of 13 Queen Queen Abayas are specially designed for this age in terms of colors and practical designs, so that the abaya is an integral part of the elegance of what you wear underneath"
         },
         "About":{
             "header":"WHO WE ARE",
-            "text":"Designer Fatima Al Shamsi, an Emirati woman who has worked in fashion design for girls since 2010, launched a private store in the UAE in 2018 for designing and tailoring girls apparel. At Quince Queen, we assemble attractive elegant and stylish models with a modern feel and accents that match with the norms and traditions of our Arab gulf culture, fashioned with high quality fabrics and sewn skillfully and perfectly."
+            "text":"A special boutique for designing and tailoring fashion for girls aged 6 years and over, with a modern character and touches commensurate with the customs and traditions of the UAE and the Arab Gulf, launched in 2018 in the UAE by Designer Fatima Al Shamsi, an Emirate woman who has worked in the field of fashion design for girls since 2010, Using high quality materials, it is professionally and meticulously stitched"
         }
     },
     "category":{
-        "header":"TRADITIONAL AND NATIONALCEREMONIAL DRESSES.",
-        "content":"These are distinguished by designs that allow ladies to wear the garment on several occasions and in two distinct styles."
+        "header":"TRADITIONAL AND NATIONALCEREMONIAL DRESSES",
+        "content":"These are distinguished by designs that allow ladies to wear the garment on several occasions and in two distinct styles"
     },
     "footer":{
         "LOCATION":"LOCATION",
