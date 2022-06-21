@@ -118,8 +118,15 @@
     [dir="rtl"] #home h3 {
         font-size: 22px !important;
     }
-}
 
+
+}
+@media (max-width: 480px) {
+    [dir="rtl"]  .content-1 .categoro-countent h1{
+        position: relative !important;
+        left: 40px !important;
+    }
+}
 @media (max-width: 320px) {
     [dir="rtl"] .categoro-countent {
         top: 110px !important;
@@ -128,5 +135,9 @@
             font-size: 28px !important;
         }
     }
+    [dir="rtl"]  .content-1 .categoro-countent h1{
+        top: -50px !important;
+    }
 
 }
+
