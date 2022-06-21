@@ -71,7 +71,7 @@
 #home h3 {
     margin-top: .5rem !important;
     width: 57%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: auto;
     text-align: center;
     word-wrap: break-word;
@@ -126,9 +126,7 @@
         .content-2 {
             display: grid;
             grid-template-columns: 60% 40%;
-            padding-top: 3rem;
-
-
+            // padding-top: 3rem;
             .box-category-2 {
                 width: 120%;
                 overflow: visible;
@@ -150,13 +148,12 @@
         .content-3 {
             display: grid;
             grid-template-columns: 40% 60%;
-            padding: 4rem 0;
+            // padding: 4rem 0;
         }
         .content-4 {
             display: grid;
             grid-template-columns: 60% 40%;
-            margin: -50px 0;
-
+            // padding: 4rem 0;
             .box-category-2 {
                 width: 120%;
                 overflow: visible;
@@ -178,12 +175,12 @@
         .content-5 {
             display: grid;
             grid-template-columns: 40% 60%;
-            padding: 4rem 0;
+            // padding: 4rem 0;
         }
         .content-6 {
             display: grid;
             grid-template-columns: 60% 40%;
-            margin: -4rem 0 10rem 0;
+            // margin: -4rem 0 10rem 0;
             .box-category-2 {
                 width: 120%;
                 overflow: visible;
@@ -207,7 +204,7 @@
     .categoro-countent {
         left: 40px;
         position: relative;
-        top: 75px;
+        // top: 75px;
         padding: 4rem;
 
         h1 {
@@ -216,7 +213,7 @@
         }
 
         p {
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 100;
             color: #669999;
         }
@@ -360,6 +357,9 @@
                     padding-left: 4rem !important;
 
                 }
+            }
+            .content-6 {
+                margin-bottom: 25%;
             }
         }
 

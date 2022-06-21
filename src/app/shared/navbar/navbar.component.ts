@@ -18,7 +18,7 @@ export class NavbarComponent implements OnInit {
     private viewportScroller: ViewportScroller
   ) {
     translateService.addLangs(['ar', 'en']);
-    translateService.setDefaultLang('ar');
+    translateService.setDefaultLang('en');
     // this.langStart = translateService.setDefaultLang('ar');
   }
   changeLangage(lang: string) {
@@ -49,7 +49,7 @@ export class NavbarComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.changeLangage(this.langStart);
+    // this.changeLangage(this.langStart);
   }
   /**
    * Listens to window scroll events
